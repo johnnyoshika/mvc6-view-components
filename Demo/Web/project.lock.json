@@ -3,6 +3,13 @@
   "version": 2,
   "targets": {
     "DNX,Version=v4.5.1": {
+      "BookStore.Components/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1481,6 +1488,18 @@
       }
     },
     "DNXCore,Version=v5.0": {
+      "BookStore.Components/1.0.0": {
+        "type": "project",
+        "framework": ".NETPlatform,Version=v5.4",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -3533,6 +3552,13 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
+      "BookStore.Components/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -5014,6 +5040,13 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
+      "BookStore.Components/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -6495,6 +6528,18 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x86": {
+      "BookStore.Components/1.0.0": {
+        "type": "project",
+        "framework": ".NETPlatform,Version=v5.4",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -8956,6 +9001,18 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x64": {
+      "BookStore.Components/1.0.0": {
+        "type": "project",
+        "framework": ".NETPlatform,Version=v5.4",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -11418,6 +11475,10 @@
     }
   },
   "libraries": {
+    "BookStore.Components/1.0.0": {
+      "type": "project",
+      "path": "../BookStore.Components/project.json"
+    },
     "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -16220,6 +16281,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
+      "BookStore.Components >= 1.0.0-*",
       "Microsoft.AspNet.IISPlatformHandler >= 1.0.0-rc1-final",
       "Microsoft.AspNet.Mvc >= 6.0.0-rc1-final",
       "Microsoft.AspNet.Server.Kestrel >= 1.0.0-rc1-final"
