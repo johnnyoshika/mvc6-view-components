@@ -1,0 +1,9 @@
+@model IEnumerable<string>
+
+<h2>Book Catalog</h2>
+<ul>
+    @foreach (var book in Model)
+    {
+        <li>@book</li>
+    }
+</ul>
