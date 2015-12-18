@@ -6,6 +6,10 @@ using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNet.Mvc.Razor;
+using Microsoft.AspNet.FileProviders;
+using BookStore.Components;
+using System.Reflection;
 
 namespace Web
 {
@@ -16,6 +20,18 @@ namespace Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.Configure<RazorViewEngineOptions>(options =>
+            {
+                options.FileProvider = new CompositeFileProvider(
+                    new EmbeddedFileProvider(
+                        typeof(BookOfTheMonthViewComponent).GetTypeInfo().Assembly,
+                        "BookStore.Components"
+                    ),
+                    options.FileProvider
+                );
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
