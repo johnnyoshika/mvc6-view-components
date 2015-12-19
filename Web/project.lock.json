@@ -10,6 +10,13 @@
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
         }
       },
+      "BookStore.Portal/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -148,10 +155,10 @@
           "lib/net451/Microsoft.AspNet.Diagnostics.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15935"
+          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15937"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -166,10 +173,10 @@
           "lib/net451/Microsoft.AspNet.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -184,10 +191,10 @@
           "lib/net451/Microsoft.AspNet.FileProviders.Composite.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1237,7 +1244,7 @@
           "lib/net451/Microsoft.Extensions.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/1.0.0-rc2-15935": {
+      "Microsoft.Extensions.Primitives/1.0.0-rc2-15937": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1536,6 +1543,18 @@
           "System.Threading": "4.0.11-beta-23516"
         }
       },
+      "BookStore.Portal/1.0.0": {
+        "type": "project",
+        "framework": ".NETPlatform,Version=v5.4",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1653,12 +1672,12 @@
           "lib/dotnet5.4/Microsoft.AspNet.Diagnostics.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15935",
-          "System.IO": "4.0.11-rc2-23614",
-          "System.Resources.ResourceManager": "4.0.1-rc2-23614"
+          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15937",
+          "System.IO": "4.0.11-rc2-23616",
+          "System.Resources.ResourceManager": "4.0.1-rc2-23616"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Abstractions.dll": {}
@@ -1667,10 +1686,10 @@
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Composite.dll": {}
@@ -1679,10 +1698,10 @@
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Composite.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Embedded.dll": {}
@@ -2625,11 +2644,11 @@
           "lib/dotnet5.4/Microsoft.Extensions.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/1.0.0-rc2-15935": {
+      "Microsoft.Extensions.Primitives/1.0.0-rc2-15937": {
         "type": "package",
         "dependencies": {
-          "System.Resources.ResourceManager": "4.0.1-rc2-23614",
-          "System.Runtime": "4.0.21-rc2-23614"
+          "System.Resources.ResourceManager": "4.0.1-rc2-23616",
+          "System.Runtime": "4.0.21-rc2-23616"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.Extensions.Primitives.dll": {}
@@ -3000,7 +3019,7 @@
           "ref/dotnet5.1/System.Globalization.Extensions.dll": {}
         }
       },
-      "System.IO/4.0.11-rc2-23614": {
+      "System.IO/4.0.11-rc2-23616": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.20",
@@ -3131,7 +3150,7 @@
           "lib/dotnet/System.ObjectModel.dll": {}
         }
       },
-      "System.Private.Uri/4.0.1-rc2-23614": {
+      "System.Private.Uri/4.0.1-rc2-23616": {
         "type": "package",
         "compile": {
           "ref/dnxcore50/_._": {}
@@ -3262,7 +3281,7 @@
           "lib/DNXCore50/System.Resources.ReaderWriter.dll": {}
         }
       },
-      "System.Resources.ResourceManager/4.0.1-rc2-23614": {
+      "System.Resources.ResourceManager/4.0.1-rc2-23616": {
         "type": "package",
         "dependencies": {
           "System.Globalization": "4.0.0",
@@ -3276,10 +3295,10 @@
           "lib/DNXCore50/System.Resources.ResourceManager.dll": {}
         }
       },
-      "System.Runtime/4.0.21-rc2-23614": {
+      "System.Runtime/4.0.21-rc2-23616": {
         "type": "package",
         "dependencies": {
-          "System.Private.Uri": "4.0.1-rc2-23614"
+          "System.Private.Uri": "4.0.1-rc2-23616"
         },
         "compile": {
           "ref/dotnet5.4/System.Runtime.dll": {}
@@ -3619,6 +3638,13 @@
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
         }
       },
+      "BookStore.Portal/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -3757,10 +3783,10 @@
           "lib/net451/Microsoft.AspNet.Diagnostics.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15935"
+          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15937"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -3775,10 +3801,10 @@
           "lib/net451/Microsoft.AspNet.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -3793,10 +3819,10 @@
           "lib/net451/Microsoft.AspNet.FileProviders.Composite.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -4849,7 +4875,7 @@
           "lib/net451/Microsoft.Extensions.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/1.0.0-rc2-15935": {
+      "Microsoft.Extensions.Primitives/1.0.0-rc2-15937": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -5143,6 +5169,13 @@
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
         }
       },
+      "BookStore.Portal/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -5281,10 +5314,10 @@
           "lib/net451/Microsoft.AspNet.Diagnostics.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15935"
+          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15937"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -5299,10 +5332,10 @@
           "lib/net451/Microsoft.AspNet.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -5317,10 +5350,10 @@
           "lib/net451/Microsoft.AspNet.FileProviders.Composite.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -6373,7 +6406,7 @@
           "lib/net451/Microsoft.Extensions.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/1.0.0-rc2-15935": {
+      "Microsoft.Extensions.Primitives/1.0.0-rc2-15937": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -6672,6 +6705,18 @@
           "System.Threading": "4.0.11-beta-23516"
         }
       },
+      "BookStore.Portal/1.0.0": {
+        "type": "project",
+        "framework": ".NETPlatform,Version=v5.4",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -6789,12 +6834,12 @@
           "lib/dotnet5.4/Microsoft.AspNet.Diagnostics.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15935",
-          "System.IO": "4.0.11-rc2-23614",
-          "System.Resources.ResourceManager": "4.0.1-rc2-23614"
+          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15937",
+          "System.IO": "4.0.11-rc2-23616",
+          "System.Resources.ResourceManager": "4.0.1-rc2-23616"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Abstractions.dll": {}
@@ -6803,10 +6848,10 @@
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Composite.dll": {}
@@ -6815,10 +6860,10 @@
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Composite.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Embedded.dll": {}
@@ -7764,11 +7809,11 @@
           "lib/dotnet5.4/Microsoft.Extensions.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/1.0.0-rc2-15935": {
+      "Microsoft.Extensions.Primitives/1.0.0-rc2-15937": {
         "type": "package",
         "dependencies": {
-          "System.Resources.ResourceManager": "4.0.1-rc2-23614",
-          "System.Runtime": "4.0.21-rc2-23614"
+          "System.Resources.ResourceManager": "4.0.1-rc2-23616",
+          "System.Runtime": "4.0.21-rc2-23616"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.Extensions.Primitives.dll": {}
@@ -8427,7 +8472,7 @@
           "ref/dotnet5.1/System.Globalization.Extensions.dll": {}
         }
       },
-      "System.IO/4.0.11-rc2-23614": {
+      "System.IO/4.0.11-rc2-23616": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.20",
@@ -8590,7 +8635,7 @@
           "lib/DNXCore50/System.Private.Networking.dll": {}
         }
       },
-      "System.Private.Uri/4.0.1-rc2-23614": {
+      "System.Private.Uri/4.0.1-rc2-23616": {
         "type": "package",
         "compile": {
           "ref/dnxcore50/_._": {}
@@ -8736,7 +8781,7 @@
           "lib/DNXCore50/System.Resources.ReaderWriter.dll": {}
         }
       },
-      "System.Resources.ResourceManager/4.0.1-rc2-23614": {
+      "System.Resources.ResourceManager/4.0.1-rc2-23616": {
         "type": "package",
         "dependencies": {
           "System.Globalization": "4.0.0",
@@ -8750,10 +8795,10 @@
           "lib/DNXCore50/System.Resources.ResourceManager.dll": {}
         }
       },
-      "System.Runtime/4.0.21-rc2-23614": {
+      "System.Runtime/4.0.21-rc2-23616": {
         "type": "package",
         "dependencies": {
-          "System.Private.Uri": "4.0.1-rc2-23614"
+          "System.Private.Uri": "4.0.1-rc2-23616"
         },
         "compile": {
           "ref/dotnet5.4/System.Runtime.dll": {}
@@ -9169,6 +9214,18 @@
           "System.Threading": "4.0.11-beta-23516"
         }
       },
+      "BookStore.Portal/1.0.0": {
+        "type": "project",
+        "framework": ".NETPlatform,Version=v5.4",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -9286,12 +9343,12 @@
           "lib/dotnet5.4/Microsoft.AspNet.Diagnostics.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15935",
-          "System.IO": "4.0.11-rc2-23614",
-          "System.Resources.ResourceManager": "4.0.1-rc2-23614"
+          "Microsoft.Extensions.Primitives": "1.0.0-rc2-15937",
+          "System.IO": "4.0.11-rc2-23616",
+          "System.Resources.ResourceManager": "4.0.1-rc2-23616"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Abstractions.dll": {}
@@ -9300,10 +9357,10 @@
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Composite.dll": {}
@@ -9312,10 +9369,10 @@
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Composite.dll": {}
         }
       },
-      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15891": {
+      "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15893": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15891"
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc2-15893"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Embedded.dll": {}
@@ -10261,11 +10318,11 @@
           "lib/dotnet5.4/Microsoft.Extensions.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/1.0.0-rc2-15935": {
+      "Microsoft.Extensions.Primitives/1.0.0-rc2-15937": {
         "type": "package",
         "dependencies": {
-          "System.Resources.ResourceManager": "4.0.1-rc2-23614",
-          "System.Runtime": "4.0.21-rc2-23614"
+          "System.Resources.ResourceManager": "4.0.1-rc2-23616",
+          "System.Runtime": "4.0.21-rc2-23616"
         },
         "compile": {
           "lib/dotnet5.4/Microsoft.Extensions.Primitives.dll": {}
@@ -10924,7 +10981,7 @@
           "ref/dotnet5.1/System.Globalization.Extensions.dll": {}
         }
       },
-      "System.IO/4.0.11-rc2-23614": {
+      "System.IO/4.0.11-rc2-23616": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.0.20",
@@ -11087,7 +11144,7 @@
           "lib/DNXCore50/System.Private.Networking.dll": {}
         }
       },
-      "System.Private.Uri/4.0.1-rc2-23614": {
+      "System.Private.Uri/4.0.1-rc2-23616": {
         "type": "package",
         "compile": {
           "ref/dnxcore50/_._": {}
@@ -11233,7 +11290,7 @@
           "lib/DNXCore50/System.Resources.ReaderWriter.dll": {}
         }
       },
-      "System.Resources.ResourceManager/4.0.1-rc2-23614": {
+      "System.Resources.ResourceManager/4.0.1-rc2-23616": {
         "type": "package",
         "dependencies": {
           "System.Globalization": "4.0.0",
@@ -11247,10 +11304,10 @@
           "lib/DNXCore50/System.Resources.ResourceManager.dll": {}
         }
       },
-      "System.Runtime/4.0.21-rc2-23614": {
+      "System.Runtime/4.0.21-rc2-23616": {
         "type": "package",
         "dependencies": {
-          "System.Private.Uri": "4.0.1-rc2-23614"
+          "System.Private.Uri": "4.0.1-rc2-23616"
         },
         "compile": {
           "ref/dotnet5.4/System.Runtime.dll": {}
@@ -11659,6 +11716,10 @@
       "type": "project",
       "path": "../BookStore.Components/project.json"
     },
+    "BookStore.Portal/1.0.0": {
+      "type": "project",
+      "path": "../BookStore.Portal/project.json"
+    },
     "Microsoft.AspNet.Antiforgery/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -11757,45 +11818,45 @@
         "Microsoft.AspNet.Diagnostics.Abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15891": {
+    "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc2-15893": {
       "type": "package",
       "serviceable": true,
-      "sha512": "P8PW/5XEnLZrzHBS7k5qqgWojn0q15OyOVFcdYn9tuRYaXdIo5iylbvgHXWuv1afgAuFBZuZgN2qkQWe+YbpVA==",
+      "sha512": "kDp7WEh1ZtZQPX88dBCjYQ8wPl/T6IlJ0n1IufNcE3xJcr8xEf1PmRpxfrf/UFF/wQD2eZM6Q7HjPGvrMJMIUQ==",
       "files": [
         "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Abstractions.dll",
         "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Abstractions.xml",
         "lib/net451/Microsoft.AspNet.FileProviders.Abstractions.dll",
         "lib/net451/Microsoft.AspNet.FileProviders.Abstractions.xml",
-        "Microsoft.AspNet.FileProviders.Abstractions.1.0.0-rc2-15891.nupkg",
-        "Microsoft.AspNet.FileProviders.Abstractions.1.0.0-rc2-15891.nupkg.sha512",
+        "Microsoft.AspNet.FileProviders.Abstractions.1.0.0-rc2-15893.nupkg",
+        "Microsoft.AspNet.FileProviders.Abstractions.1.0.0-rc2-15893.nupkg.sha512",
         "Microsoft.AspNet.FileProviders.Abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15891": {
+    "Microsoft.AspNet.FileProviders.Composite/1.0.0-rc2-15893": {
       "type": "package",
       "serviceable": true,
-      "sha512": "5uig/yrXdKRZvl27qkNVO3rFKjIAW2Vy5CN+f3nLYYfk/LiLpKevX4QlvETlcfJPdsQcHv6GWvJnrHqRxDYdoQ==",
+      "sha512": "UAkPYDdN0hCnuVZB/CDXTUM7yUoGOf6gi/D+0+w3O878QxCp3grMoLEhb4h+6sWmPQq4N+iSs7zahgMmdiShoQ==",
       "files": [
         "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Composite.dll",
         "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Composite.xml",
         "lib/net451/Microsoft.AspNet.FileProviders.Composite.dll",
         "lib/net451/Microsoft.AspNet.FileProviders.Composite.xml",
-        "Microsoft.AspNet.FileProviders.Composite.1.0.0-rc2-15891.nupkg",
-        "Microsoft.AspNet.FileProviders.Composite.1.0.0-rc2-15891.nupkg.sha512",
+        "Microsoft.AspNet.FileProviders.Composite.1.0.0-rc2-15893.nupkg",
+        "Microsoft.AspNet.FileProviders.Composite.1.0.0-rc2-15893.nupkg.sha512",
         "Microsoft.AspNet.FileProviders.Composite.nuspec"
       ]
     },
-    "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15891": {
+    "Microsoft.AspNet.FileProviders.Embedded/1.0.0-rc2-15893": {
       "type": "package",
       "serviceable": true,
-      "sha512": "JjlSINPUuLXZyaRX7r0P29r0fx66cfXDjMKQnAbo+Hr0f77//oLjYL4gAd/t2VVQ2rBgR9o8JtM8pmvQ/ShOYw==",
+      "sha512": "X2CiHzQB8oCYYOJoS7TpGiB66CEllXK8E0weQOLA6VIhHc8Rw9bA2yhE8zKtbE5QFMGaoEXuo7FGbli4h+XILw==",
       "files": [
         "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Embedded.dll",
         "lib/dotnet5.4/Microsoft.AspNet.FileProviders.Embedded.xml",
         "lib/net451/Microsoft.AspNet.FileProviders.Embedded.dll",
         "lib/net451/Microsoft.AspNet.FileProviders.Embedded.xml",
-        "Microsoft.AspNet.FileProviders.Embedded.1.0.0-rc2-15891.nupkg",
-        "Microsoft.AspNet.FileProviders.Embedded.1.0.0-rc2-15891.nupkg.sha512",
+        "Microsoft.AspNet.FileProviders.Embedded.1.0.0-rc2-15893.nupkg",
+        "Microsoft.AspNet.FileProviders.Embedded.1.0.0-rc2-15893.nupkg.sha512",
         "Microsoft.AspNet.FileProviders.Embedded.nuspec"
       ]
     },
@@ -12661,10 +12722,10 @@
         "Microsoft.Extensions.PlatformAbstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Primitives/1.0.0-rc2-15935": {
+    "Microsoft.Extensions.Primitives/1.0.0-rc2-15937": {
       "type": "package",
       "serviceable": true,
-      "sha512": "a4DsibpsIXex/DMC5Bs5MoWzx5Znlw1XfC1q50WqTrwu2dRUElHCim+SyUOdkzv1A+60zb+paxGdTP0JG8uVmg==",
+      "sha512": "ymUTEtYxhQ5FSy8l3tC/9KTIxw/XBEYwsLwOSsvFw5uIWiT4NrZf9FQ5NjFqAlNIHgi9LvIu/un/6kGSUHuzOA==",
       "files": [
         "lib/dotnet5.4/Microsoft.Extensions.Primitives.dll",
         "lib/dotnet5.4/Microsoft.Extensions.Primitives.xml",
@@ -12672,8 +12733,8 @@
         "lib/net451/Microsoft.Extensions.Primitives.xml",
         "lib/netcore50/Microsoft.Extensions.Primitives.dll",
         "lib/netcore50/Microsoft.Extensions.Primitives.xml",
-        "Microsoft.Extensions.Primitives.1.0.0-rc2-15935.nupkg",
-        "Microsoft.Extensions.Primitives.1.0.0-rc2-15935.nupkg.sha512",
+        "Microsoft.Extensions.Primitives.1.0.0-rc2-15937.nupkg",
+        "Microsoft.Extensions.Primitives.1.0.0-rc2-15937.nupkg.sha512",
         "Microsoft.Extensions.Primitives.nuspec"
       ]
     },
@@ -14158,10 +14219,10 @@
         "System.IO.nuspec"
       ]
     },
-    "System.IO/4.0.11-rc2-23614": {
+    "System.IO/4.0.11-rc2-23616": {
       "type": "package",
       "serviceable": true,
-      "sha512": "QPLRh17MizGLLCxtsx/JlxvEDiUoXSd+zbYKVAV9hnZ9Ja4niH8kv4MpuKov5nHqD/Ah8qGpAQbkh0rPBENhcQ==",
+      "sha512": "SyZ3zWYKTRgXbvinJsRlIUenJxdjjfrG6V75cUE9yjDLEq37BmCc5pgPBNaU5ffZJdNNPHAenygQL3RLJ4Zc5w==",
       "files": [
         "lib/DNXCore50/System.IO.dll",
         "lib/MonoAndroid10/_._",
@@ -14215,8 +14276,8 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtimes/win8-aot/lib/netcore50/System.IO.dll",
-        "System.IO.4.0.11-rc2-23614.nupkg",
-        "System.IO.4.0.11-rc2-23614.nupkg.sha512",
+        "System.IO.4.0.11-rc2-23616.nupkg",
+        "System.IO.4.0.11-rc2-23616.nupkg.sha512",
         "System.IO.nuspec"
       ]
     },
@@ -14625,15 +14686,15 @@
         "System.Private.Networking.nuspec"
       ]
     },
-    "System.Private.Uri/4.0.1-rc2-23614": {
+    "System.Private.Uri/4.0.1-rc2-23616": {
       "type": "package",
-      "sha512": "Qy0ahA68+7TRcTZ9TzMnJTpM1nQRvztIaU7AIdFmXGz4b4rsw++BbXQpv/Xc79GOWFPm5CRvBSo4nHvsRozGeQ==",
+      "sha512": "lj5AhIvt0E9bCDKhBUhveWucfUB1xSPGipSohok6jxBmSJFoXHNHeHqtTZ+5NhEnYXT4pMeDa4+Pi74kWIEUOQ==",
       "files": [
         "ref/dnxcore50/_._",
         "ref/netcore50/_._",
         "runtime.json",
-        "System.Private.Uri.4.0.1-rc2-23614.nupkg",
-        "System.Private.Uri.4.0.1-rc2-23614.nupkg.sha512",
+        "System.Private.Uri.4.0.1-rc2-23616.nupkg",
+        "System.Private.Uri.4.0.1-rc2-23616.nupkg.sha512",
         "System.Private.Uri.nuspec"
       ]
     },
@@ -15054,10 +15115,10 @@
         "System.Resources.ResourceManager.nuspec"
       ]
     },
-    "System.Resources.ResourceManager/4.0.1-rc2-23614": {
+    "System.Resources.ResourceManager/4.0.1-rc2-23616": {
       "type": "package",
       "serviceable": true,
-      "sha512": "mj5Y/pEM3tdZu4dlG57xWJkEhuTsT+a/M2AHO+4BQyqY2FxURPR+rAvL4GnhCI0bcAzyiui4TE4pg1lOe1/2XA==",
+      "sha512": "kRHPQ+cMQQsPWsGoZvQMS1FbqMA+xws2kHGbA9nPn0HsyAn3xLoDpYZMWrump+pcdca1E3oTD7kq40mUl7/dtA==",
       "files": [
         "lib/DNXCore50/System.Resources.ResourceManager.dll",
         "lib/MonoAndroid10/_._",
@@ -15100,8 +15161,8 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtimes/win8-aot/lib/netcore50/System.Resources.ResourceManager.dll",
-        "System.Resources.ResourceManager.4.0.1-rc2-23614.nupkg",
-        "System.Resources.ResourceManager.4.0.1-rc2-23614.nupkg.sha512",
+        "System.Resources.ResourceManager.4.0.1-rc2-23616.nupkg",
+        "System.Resources.ResourceManager.4.0.1-rc2-23616.nupkg.sha512",
         "System.Resources.ResourceManager.nuspec"
       ]
     },
@@ -15153,10 +15214,10 @@
         "System.Runtime.nuspec"
       ]
     },
-    "System.Runtime/4.0.21-rc2-23614": {
+    "System.Runtime/4.0.21-rc2-23616": {
       "type": "package",
       "serviceable": true,
-      "sha512": "/ePwJNgzVQtogfw+oZN5AOisTlmW5s9mFkET8utNRHg2xKQrTO8L+PmB+mTHXrPbOg8mzlDhuGd5hOoQqP0qsA==",
+      "sha512": "6Mp0l0ln3fiNjQ/1SzEhMRyGXwKU9JtScYz3+KPC15zUujNyW+Q8cQnQQ8U8Zj8IPkykkvAtw1E2f15JUNze1A==",
       "files": [
         "lib/DNXCore50/System.Runtime.dll",
         "lib/MonoAndroid10/_._",
@@ -15221,8 +15282,8 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "runtimes/win8-aot/lib/netcore50/System.Runtime.dll",
-        "System.Runtime.4.0.21-rc2-23614.nupkg",
-        "System.Runtime.4.0.21-rc2-23614.nupkg.sha512",
+        "System.Runtime.4.0.21-rc2-23616.nupkg",
+        "System.Runtime.4.0.21-rc2-23616.nupkg.sha512",
         "System.Runtime.nuspec"
       ]
     },
@@ -16498,6 +16559,7 @@
   "projectFileDependencyGroups": {
     "": [
       "BookStore.Components >= 1.0.0-*",
+      "BookStore.Portal >= 1.0.0-*",
       "Microsoft.AspNet.FileProviders.Composite >= 1.0.0-*",
       "Microsoft.AspNet.FileProviders.Embedded >= 1.0.0-*",
       "Microsoft.AspNet.IISPlatformHandler >= 1.0.0-rc1-final",

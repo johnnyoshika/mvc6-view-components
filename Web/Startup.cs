@@ -10,6 +10,7 @@ using Microsoft.AspNet.Mvc.Razor;
 using Microsoft.AspNet.FileProviders;
 using BookStore.Components;
 using System.Reflection;
+using BookStore.Portal;
 
 namespace Web
 {
@@ -24,6 +25,10 @@ namespace Web
             services.Configure<RazorViewEngineOptions>(options =>
             {
                 options.FileProvider = new CompositeFileProvider(
+                    new EmbeddedFileProvider(
+                        typeof(BooksController).GetTypeInfo().Assembly,
+                        "BookStore.Portal"
+                    ),
                     new EmbeddedFileProvider(
                         typeof(BookOfTheMonthViewComponent).GetTypeInfo().Assembly,
                         "BookStore.Components"

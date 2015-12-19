@@ -6,6 +6,7 @@
 
   "dependencies": {
     "BookStore.Components": "1.0.0-*",
+    "BookStore.Portal": "1.0.0-*",
     "Microsoft.AspNet.FileProviders.Composite": "1.0.0-*",
     "Microsoft.AspNet.FileProviders.Embedded": "1.0.0-*",
     "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
