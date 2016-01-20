@@ -5,6 +5,8 @@
   },
 
   "dependencies": {
+    "Autofac": "4.0.0-rc1-177",
+    "Autofac.Extensions.DependencyInjection": "4.0.0-rc1-177",
     "BookStore.Components": "1.0.0-*",
     "BookStore.Portal": "1.0.0-*",
     "Microsoft.AspNet.FileProviders.Composite": "1.0.0-*",
