@@ -20,8 +20,6 @@ namespace Web
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
-
             services.Configure<RazorViewEngineOptions>(options =>
             {
                 options.FileProvider = new CompositeFileProvider(
@@ -36,6 +34,8 @@ namespace Web
                     options.FileProvider
                 );
             });
+
+            services.AddMvc();
 
             return AutofacConfig.Register(services);
         }
